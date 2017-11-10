@@ -14,6 +14,7 @@ require("loadSpritesheet")
 function love.load()
 	-- image holds the loaded image
 	-- frame is a table of quads
+	-- frameNumber: table of frame numbers (eg. cell1 = 1, cell2 = 2 ... etc.)
 	-- frameCount holds the total number of frames (optional)
 	image, frame, frameNumber, frameCount = loadSpritesheet("dungeon1.png", 180, 180)
 end
